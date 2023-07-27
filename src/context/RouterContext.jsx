@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 const RouterContext = createContext({
   path: "",
-  changePath: path,
+  changePath: () => {},
 });
 
 export default RouterContext;
